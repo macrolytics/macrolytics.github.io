@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
 
     <title>Macrolytics | Making sense of data</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -23,6 +24,25 @@
   </head>
 
   <body>
+
+    <!-- Navigation -->
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4">
+      <h5 class="my-0 mr-md-auto font-weight-normal">
+        <a class="navbar-brand" href="#">
+          <img src="/images/logo.png" width="180" height="45" alt="">
+        </a>
+      </h5>
+      <ul class="list-inline mb-2">
+        <li class="list-inline-item">
+          <a href="#">About</a>
+        </li>
+        <li class="list-inline-item">&sdot;</li>
+        <li class="list-inline-item">
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+
     <!-- Masthead -->
     <header class="masthead text-white text-center">
       <div class="overlay"></div>
@@ -41,21 +61,23 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
-              <a href="#dviz" style="color:#000; text-decoration: none;" onMouseOver="this.style.color='#2E86C1'" onMouseOut="this.style.color='#000'"><i class="fas fa-chart-bar fa-3x"></i>
+              <a href="#dviz" style="color:#000; text-decoration: none;" onMouseOver="this.style.color='#2E86C1'" onMouseOut="this.style.color='#000'"><i class="fas fa-cogs fa-3x"></i>
               <p></p>
-              <h3>Data Visualization</h3></a>
+              <h3>Systems Engineering</h3></a>
+              <p></br></p>
           </div>
           <div class="col-lg-4">
               <a href="#rtm" style="color:#000; text-decoration: none;" onMouseOver="this.style.color='#2E86C1'" onMouseOut="this.style.color='#000'">
-              <i class="fas fa-lightbulb fa-3x"></i>
+              <i class="fas fa-chart-bar fa-3x"></i>
               <p></p>
-              <h3>Realtime Actionables</h3></a>
+              <h3>Data Visualization</h3></a>
+              <p></br></p>
           </div>
           <div class="col-lg-4">
               <a href="#palyt" style="color:#000; text-decoration: none;" onMouseOver="this.style.color='#2E86C1'" onMouseOut="this.style.color='#000'">
-              <i class="fas fa-chess fa-3x"></i>
+              <i class="fas fa-puzzle-piece fa-3x"></i>
               <p></p>
-              <h3>Predictive Analytics</h3></a> 
+              <h3>Consulting</h3></a>
           </div>
         </div>
       </div>
@@ -66,24 +88,24 @@
       <div class="container-fluid p-0">
         <div class="row no-gutters" id="dviz">
 
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('/images/dv.jpg');"></div>
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('/images/se.jpg');"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Data Visualization</h2>
-            <p class="lead mb-0">Unifying structured and unstructured data from different sources to highlight trends and patterns</p>
+            <h2>Systems Engineering</h2>
+            <p class="lead mb-0">We help organisations build a robust technology architecture which is both flexible and scalable</p>
           </div>
         </div>
         <div class="row no-gutters" id="rtm">
-          <div class="col-lg-6 text-white showcase-img" style="background-image: url('/images/ins.jpg');"></div>
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('/images/dv.jpg');"></div>
           <div class="col-lg-6 my-auto showcase-text">
-            <h2>Realtime Actionables</h2>
-            <p class="lead mb-0">Deliver realtime actionable insights based on live data streams</p>
+            <h2>Data Visualization</h2>
+            <p class="lead mb-0">We help organisations unify structured and unstructured data from different sources to highlight trends and patterns</p>
           </div>
         </div>
         <div class="row no-gutters" id="palyt">
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('/images/pa.jpg');"></div>
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('/images/clt.jpg');"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Predictive Analytics</h2>
-            <p class="lead mb-0">Implement unsupervised self-learning systems to predict future outcomes</p>
+            <h2>Consulting</h2>
+            <p class="lead mb-0">We help organisations build custom solutions for their technology and data requirements</p>
           </div>
         </div>
       </div>
@@ -94,15 +116,6 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-            <ul class="list-inline mb-2">
-              <li class="list-inline-item">
-                <a href="#">About</a>
-              </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
-                <a href="#">Contact</a>
-              </li>
-            </ul>
             <p class="text-muted small mb-4 mb-lg-0">&copy; Macrolytics 2018. All Rights Reserved.</p>
           </div>
         </div>
@@ -110,8 +123,9 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="/script/jquery.min.js"></script>
-    <script src="/script/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 
   </body>
 
